@@ -35,8 +35,32 @@ $faqs = [
 <body>
     
     <div class="app df">
-        <header class="main-header">
-            HEADER HERE
+        <header class="main-header df">
+            <div class="logo df">
+                <a target="_blank" href="https://www.google.com">
+                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google-logo">
+                </a>
+                <a class="privacy-terms" target="_blank" href="https://policies.google.com/">Privacy e termini</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="df">
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/">Introduzione</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/privacy">Norme sulla privacy</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/terms">Termini di servizio</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/technologies">Tecnologie</a>
+                    </li>
+                    <li class="active">
+                        <a target="_blank" href="https://policies.google.com/faq">Domande frequenti</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <main class="main-content">
             <div class="container">
@@ -51,8 +75,87 @@ $faqs = [
             </div>
         </main>
         <footer class="main-footer">
-            <div class="container">
-                    FOOTER HERE
+            <div class="container df">
+                <ul class="df">
+                    <li>
+                        <a target="_blank" href="https://ww.google.com">Google</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://about.google">Tutto su Google</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/privacy">Privacy</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://policies.google.com/terms">Termini</a>
+                    </li>
+                </ul>
+                <div class="language">
+                    <label for="lang-sel">Cambia lingua: </label>
+                    <select name="lang-sel" id="lang-sel">
+                        <option value="af">Afrikaans</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="ms">Bahasa Melayu</option>
+                        <option value="ca">Català</option>
+                        <option value="cs">Čeština</option>
+                        <option value="da">Dansk</option>
+                        <option value="de">Deutsch</option>
+                        <option value="et">Eesti</option>
+                        <option value="en">English</option>
+                        <option value="en-GB">English (United Kingdom)</option>
+                        <option value="es">Español</option>
+                        <option value="es-419">Español (Latinoamérica)</option>
+                        <option value="eu">Euskara</option>
+                        <option value="fil">Filipino</option>
+                        <option value="fr">Français</option>
+                        <option value="fr-CA">Français (Canada)</option>
+                        <option value="gl">Galego</option>
+                        <option value="hr">Hrvatski</option>
+                        <option value="zu">Isizulu</option>
+                        <option value="is">Íslenska</option>
+                        <option selected value="it">Italiano</option>
+                        <option value="sw">Kiswahili</option>
+                        <option value="lv">Latviešu</option>
+                        <option value="lt">Lietuvių</option>
+                        <option value="hu">Magyar</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="no">Norsk</option>
+                        <option value="pl">Polski</option>
+                        <option value="pt-BR">Português (Brasil)</option>
+                        <option value="pt-PT">Português (Portugal)</option>
+                        <option value="ro">Română</option>
+                        <option value="sk">Slovenčina</option>
+                        <option value="sl">Slovenščina</option>
+                        <option value="sr-Latn">Srpski</option>
+                        <option value="fi">Suomi</option>
+                        <option value="sv">Svenska</option>
+                        <option value="vi">Tiếng Việt</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="el">Ελληνικά</option>
+                        <option value="bg">Български</option>
+                        <option value="ru">Русский</option>
+                        <option value="sr">Српски</option>
+                        <option value="uk">Українська</option>
+                        <option value="iw">‫עברית‬</option>
+                        <option value="ur">‫اردو‬</option>
+                        <option value="fa">‫فارسی‬</option>
+                        <option value="am">አማርኛ</option>
+                        <option value="mr">मराठी</option>
+                        <option value="hi">हिन्दी</option>
+                        <option value="bn">বাংলা</option>
+                        <option value="gu">ગુજરાતી</option>
+                        <option value="ta">தமிழ்</option>
+                        <option value="te">తెలుగు</option>
+                        <option value="kn">ಕನ್ನಡ</option>
+                        <option value="ml">മലയാളം</option>
+                        <option value="th">ไทย</option>
+                        <option value="ko">한국어</option>
+                        <option value="zh-HK">中文 (香港)</option>
+                        <option value="zh-CN">中文（简体中文）</option>
+                        <option value="zh-TW">中文（繁體中文）</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </div>
             </div>
         </footer>
     </div>
