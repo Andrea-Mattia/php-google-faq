@@ -26,25 +26,34 @@ $faqs = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Google FAQs</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
     <div class="app df">
-        <header>
+        <header class="main-header">
             HEADER HERE
         </header>
         <main class="main-content">
             <div class="container">
-                <?php foreach ($faqs as $value) { ?>
-                    <div> <strong><?php echo $value['question'] ?></strong> </div>
-                    <p> <?php echo $value['answer'] ?> </p>
+                <?php foreach ($faqs as $value) { 
+                    $answer = $value['answer'];
+                    $answer_p = explode('<br>', $answer); ?>
+                    <h2> <strong><?php echo $value['question']; ?></strong> </h2>
+                    <?php foreach ($answer_p as $paragraph) { ?>
+                        <p> <?php echo $paragraph; ?> </p>
+                    <?php } ?>
                 <?php } ?>
             </div>
         </main>
-        <footer>
-            FOOTER HERE
+        <footer class="main-footer">
+            <div class="container">
+                    FOOTER HERE
+            </div>
         </footer>
     </div>
 

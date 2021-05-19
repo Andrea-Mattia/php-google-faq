@@ -13,10 +13,21 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 .df {
   display: flex;
+}
+
+h2 {
+  padding-top: 64px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  margin: 10px 0;
+  padding-top: 20px;
 }
 
 /* LAYOUT */
@@ -25,6 +36,21 @@ body {
   flex-direction: column;
 }
 
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: #eee;
+}
+
 .main-content {
   flex-grow: 1;
+  margin-top: 100px;
+}
+
+.main-footer {
+  width: 100%;
+  background: #eee;
 }
